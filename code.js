@@ -1,7 +1,7 @@
 // Initialize the Neuroevolution
-var Neuvol;
-var game;
-var start = function(){
+let Neuvol;
+let game;
+const start = function(){
     Neuvol = new Neuroevolution({
         population:50,
         network:[2, [2], 1],
